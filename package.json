@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf public/*",
-    "static": "cp static/* public/",
+    "static": "cp -r static/* public/",
     "build": "npm run clean && npm run static"
   },
   "repository": {
