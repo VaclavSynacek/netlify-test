@@ -1,0 +1,22 @@
+{
+  "name": "netlify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf public/*",
+    "static": "cp static/* public/",
+    "build": "npm run clean && npm run static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaclavSynacek/netlify-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaclavSynacek/netlify-test/issues"
+  },
+  "homepage": "https://github.com/VaclavSynacek/netlify-test#readme"
+}
